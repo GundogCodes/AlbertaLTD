@@ -189,7 +189,6 @@
           max-height: 550px;
           width: 40%;
           max-width: 300px;
-          height: 50vh;
           border-radius: 5px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           display: flex;
@@ -204,9 +203,7 @@
             width: 100%;
             font-size: 12px;
             padding: 10px;
-            min-height: 30vh;
-            border-top-left-radius: 3px;
-            border-top-right-radius: 3px;
+
             span {
               font-weight: bold;
             }
@@ -247,9 +244,11 @@
           padding: 70px;
           font-size: 15px;
           margin-left: 10vw;
+          max-width: 1000px;
         }
       }
       .banner1RightSide {
+        max-width: 500px;
         width: 40vw;
         height: 100%;
 

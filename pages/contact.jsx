@@ -12,10 +12,10 @@ function contact() {
         <div className={styles.ContactSection1}>
           <h2>Contact us</h2>
           <h3>
-            Hello from Focus Logistics & Transportation LTD.! We're committed to
-            assisting you with any inquiries, questions, or feedback you may
-            have. Don't hesitate to reach out to us using the contact details
-            provided below. We're here to help!"
+            Greetings from Alberta LTD! We're dedicated to addressing any
+            queries, concerns, or feedback you may have. Feel free to get in
+            touch with us using the contact information below. Your satisfaction
+            is our priority!
           </h3>
         </div>
         <div className={styles.ContactSection2}>
@@ -23,18 +23,18 @@ function contact() {
           <div className={styles.contactInfoDiv}>
             <div className={styles.contactInfo1}>
               <h3>Edmonton</h3>
-              <h3>Mandeep Singh</h3>
-              <a href="tel:+5875914001">(587) 591-4001</a>
-            </div>
-            <div className={styles.contactInfo2}>
-              <h3>Grande Prairie</h3>
               <h3>Ompal Taya</h3>
               <a href="tel:+7802451258">(780) 245-1258</a>
             </div>
+            <div className={styles.contactInfo2}>
+              <h3>Grande Prairie</h3>
+              <h3>Neena Taya</h3>
+              <a href="tel:+7809656258">(780) 965-6258</a>
+            </div>
           </div>
           <h4>Email</h4>
-          <a className={styles.email} href="mailto:focuscanadaltd@gmail.com">
-            focuscanadaltd@gmail.com
+          <a className={styles.email} href="mailto:1652357albertaltd@gmail.com">
+            1652357albertaltd@gmail.com
           </a>
         </div>
         <div className={styles.ContactSection3}>
