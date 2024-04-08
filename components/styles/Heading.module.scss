@@ -1,6 +1,5 @@
 .Heading {
   max-width: 1940px;
-  background-color: #ff6410;
   width: 100vw;
   height: 150px;
   position: absolute;
@@ -8,18 +7,37 @@
   align-items: center;
   justify-content: space-evenly;
   top: 0px;
+  background-color: rgb(64, 32, 60);
+  background-color: rgb(36, 30, 60);
+  background: rgb(64, 32, 60);
+  background: rgb(64, 32, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 32, 60, 1) 65%,
+    rgba(36, 30, 60, 1) 100%
+  );
+  color: white;
   .logoDiv {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 70%;
     height: 100%;
+    .logo {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
   }
   aside {
-    width: 70%;
+    width: 30%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    .asideLinks:hover {
+      color: aquamarine;
+    }
   }
 }

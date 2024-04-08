@@ -10,14 +10,14 @@
   overflow-y: hidden;
   .mainBody {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
     max-width: 1940px;
     overflow-y: hidden;
     .homeSection1 {
-      background-image: url("/images/semiBannerBlur2.jpg");
+      background-image: url("https://ecapital.com/wp-content/uploads/2020/04/trucking-and-bank-covenants.jpg");
       background-size: cover;
       background-position-y: -450px;
       width: 100%;
@@ -36,50 +36,42 @@
         .section1Div1 {
           height: 50%;
           width: 100%;
-          background-color: rgb(107, 189, 148);
-          transform: skewX(-20deg) translateX(10vw);
+          background-color: rgb(63, 138, 153);
+          transform: skewX(20deg) translateX(10vw);
           display: flex;
           align-items: flex-end;
           justify-content: center;
           color: white;
 
           h1 {
-            transform: skewX(20deg);
-            font-size: 3vh;
+            font-size: 40px;
             width: 90%;
             height: 50%;
             max-width: 600px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
             font-weight: bold;
+            transform: skewX(-20deg);
           }
         }
         .section1Div2 {
           display: flex;
           align-items: flex-start;
           justify-content: center;
-          transform: skewX(20deg) translateX(10vw);
-          background-color: rgb(107, 189, 148);
+          transform: skewX(-20deg) translateX(10vw);
+          background-color: rgb(63, 138, 153);
           color: white;
 
           h1 {
             margin-top: 10px;
-            transform: skewX(-20deg);
-            font-size: 2vh;
+            font-size: 30px;
             width: 80%;
             max-width: 500px;
             height: 50%;
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
             font-weight: bold;
+            transform: skewX(20deg);
           }
           width: 100%;
           height: 50%;
-          background-color: r;
         }
       }
       .section1Div3 {
@@ -107,7 +99,7 @@
       justify-content: space-evenly;
       background-color: rgb(240, 240, 240);
       .accordion {
-        background-color: rgb(63, 138, 153);
+        background-color: rgb(36, 30, 60);
         color: white;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
           rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -119,7 +111,7 @@
         border-radius: 4px;
         padding: 2px;
         box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-        background-color: rgb(107, 189, 148);
+        background-color: rgb(64, 32, 60);
         color: white;
         h1 {
           font-size: 40px;
@@ -164,7 +156,7 @@
     .homeSection3 {
       width: 100%;
       height: 110vh;
-      background-color: rgb(107, 189, 148);
+      background-color: rgb(64, 32, 60);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -212,6 +204,9 @@
             width: 100%;
             font-size: 12px;
             padding: 10px;
+            min-height: 30vh;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
             span {
               font-weight: bold;
             }
@@ -220,35 +215,77 @@
       }
     }
     .homeSection4 {
+      height: 55vh;
       width: 100%;
-      height: 30vh;
-      background-image: url("/images/semiBlur1.jpg");
-      background-size: cover;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      img {
-        width: 300px;
+      overflow-x: hidden;
+      max-height: 800px;
+      background-image: url("https://personaltruckservices.com/wp-content/uploads/2022/07/banner-4.jpg");
+      .banner1LeftSide {
+        width: 70%;
+        height: 100%;
+        background-color: white;
+        transform: skewX(-10deg) translateX(-10vw);
+        h1,
+        h2 {
+          transform: skewX(10deg);
+          width: 90%;
+        }
+        h1 {
+          height: 60%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 40px;
+          font-weight: bolder;
+        }
+        h2 {
+          height: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding: 70px;
+          font-size: 15px;
+          margin-left: 10vw;
+        }
       }
-    }
-    .homeSection5 {
-      height: 25vh;
-      max-height: 600px;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-      font-size: 25px;
-      background-color: rgb(240, 240, 240);
-      span {
-        color: white;
-        background-color: rgb(63, 138, 153);
-        padding: 10px;
-        border-radius: 7px;
-        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      .banner1RightSide {
+        width: 40vw;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+          height: 60%;
+          display: flex;
+          justify-content: center;
+          color: white;
+          font-size: 30px;
+          padding: 90px;
+          font-weight: bold;
+        }
+        .h2Div {
+          width: 70%;
+          display: flex;
+          justify-content: flex-start;
+          margin: 5px;
+          #butt {
+            margin-right: 20px;
+            width: 100px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 3px;
+            color: white;
+            background-color: #ff6410;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+              rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+              rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          }
+        }
       }
     }
   }

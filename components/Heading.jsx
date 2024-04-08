@@ -15,29 +15,18 @@ function Heading() {
   return (
     <div className={styles.Heading}>
       <div className={styles.logoDiv}>
-        <Link href={"/"}>LOGO HERE</Link>
+        <Link className={styles.logo} href={"/"}>
+          Logo Here
+          <img src="" />
+        </Link>
       </div>
       <aside>
-        <Menu>
-          <MenuButton>DropDown</MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
-        </Menu>
-        <Menu>
-          <MenuButton>DropDown</MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
-        </Menu>
+        <Link className={styles.asideLinks} href={"/services"}>
+          Our Services
+        </Link>
+        <Link className={styles.asideLinks} href={"/contact"}>
+          Contact
+        </Link>
       </aside>
     </div>
   );

@@ -26,34 +26,35 @@ export default function Home() {
           <div className={styles.homeSection1}>
             <div className={styles.leftSection}>
               <div className={styles.section1Div1}>
-                <h1>Tailored Shipping Solutions.</h1>
+                <h1>Driving Success</h1>
               </div>
               <div className={styles.section1Div2}>
-                <h1>Efficient, Reliable, and Personalized for You.</h1>
+                {" "}
+                <h1>Delivering Excellence</h1>
               </div>
             </div>
-            <div className={styles.section1Div3}>
-              <h1>Welcome to Focus Logistics</h1>
-            </div>
+            <div className={styles.section1Div3}>LOGO</div>
           </div>
           <div className={styles.homeSection2}>
             <div className={styles.text}>
               <h1>Why Choose Us?</h1>
               <ul>
                 <li>
-                  Welcome to<span> Focus Logistics & Transportation Ltd.</span>,
-                  your premier shipping and logistics partner in Alberta and
-                  beyond.
+                  Welcome to<span> Alberta Ltd.</span>, your trusted partner in
+                  transportation and logistics services. Established in January
+                  2012, we have swiftly risen to prominence, catering to clients
+                  throughout the expansive regions of Alberta
                 </li>
                 <li>
-                  With our establishment in November 2021, we've swiftly become
-                  a trusted name in the industry, proudly serving clients across
-                  all regions of Alberta.
+                  Our extensive fleet comprises a variety of vehicles, ranging
+                  from cars and minivans to one-ton and five-ton trucks,
+                  ensuring prompt and reliable transportation solutions tailored
+                  to your needs.
                 </li>
                 <li>
-                  we offer a diverse fleet of vehicles, including cars,
-                  minivans, one-ton, and five-ton trucks, ensuring we meet your
-                  transportation needs efficiently and reliably.
+                  We prioritize your satisfaction above all else, employing
+                  personalized strategies to address your unique requirements
+                  with precision and care.
                 </li>
                 <li id={styles.longLi}>
                   Strategically positioned, we boast two operational offices in
@@ -83,17 +84,17 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Proactive Customer Care
+                      Reliability Redefined
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
                 <AccordionPanel className={styles.accordionPara} pb={4}>
-                  We believe in proactive customer care at Focus Logistics. Our
-                  dedicated team goes above and beyond to anticipate and address
-                  your needs before they arise. Whether it's providing real-time
-                  updates on your shipment or offering personalized assistance,
-                  we're here to ensure your satisfaction every step of the way.
+                  We redefine reliability by delivering on our promises
+                  consistently, ensuring that every shipment reaches its
+                  destination securely and on time. At Alberta LTD, you can rely
+                  on us as your steadfast partner in transportation and
+                  logistics.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -105,18 +106,16 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Precision Delivery Solutions
+                      Uncompromising Integrity
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
                 <AccordionPanel className={styles.accordionPara} pb={4}>
-                  At Focus Logistics, we prioritize precision in every aspect of
-                  our delivery solutions. We meticulously plan and execute each
-                  shipment, ensuring timely and accurate deliveries to your
-                  destination. Our commitment to precision extends from our
-                  operational processes to our customer service, guaranteeing a
-                  seamless experience for every client.
+                  Integrity is at the core of everything we do. We uphold the
+                  highest ethical standards in our operations, maintaining
+                  transparency and honesty in every interaction. Trust Alberta
+                  LTD for integrity-driven solutions that exceed expectations.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -128,18 +127,17 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Collaborative Partnership Approach:
+                      Customer-Centric Innovation
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
                 <AccordionPanel className={styles.accordionPara} pb={4}>
-                  We view our client relationships as partnerships built on
-                  collaboration and mutual success. We work closely with you to
-                  understand your unique requirements and tailor our services to
-                  meet your specific needs. By fostering open communication and
-                  transparency, we aim to forge long-lasting partnerships that
-                  drive value for your business.
+                  We embrace innovation with a customer-centric approach,
+                  constantly seeking new ways to enhance efficiency and deliver
+                  added value to our clients. From advanced technologies to
+                  tailored strategies, we innovate to optimize your
+                  transportation experience.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -151,99 +149,116 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Safety-First Culture
+                      Community Commitment
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
                 <AccordionPanel className={styles.accordionPara} pb={4}>
-                  Safety is our top priority. We maintain a rigorous
-                  safety-first culture that permeates every aspect of our
-                  operations. From comprehensive driver training programs to
-                  strict adherence to industry regulations, we ensure the
-                  highest standards of safety for our team members, your cargo,
-                  and the communities we serve. By prioritizing safety at all
-                  times, we provide peace of mind and reliability to our
-                  clients, fostering trust and confidence in our services.
+                  At Alberta LTD, we are committed to giving back to the
+                  communities we serve. We actively engage in initiatives that
+                  promote social responsibility and environmental
+                  sustainability, making a positive impact beyond
+                  transportation. Trust us not only for reliable service but
+                  also for our dedication to building stronger communities.
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
           </div>
           <div className={styles.homeSection3}>
             <div className={styles.text}>
-              <span>Our Dedication to Customer Service Sets Us Apart.</span>
-              As a trusted transportation and supply chain partner in Western
-              Canada, we are renowned for our unwavering commitment to
-              excellence. With a seasoned team at the helm, we tackle diverse
-              logistics challenges with ease, no matter the scale or complexity.
-              Count on us for unparalleled reliability and professionalism every
-              step of the way
+              <span>Setting the Standard in Customer Service Excellence.</span>
+              At Alberta LTD, we pride ourselves on being more than just a
+              transportation and supply chain partner. With over a decade of
+              operation, our unwavering dedication to excellence has set us
+              apart in Western Canada. Our experienced team navigates through
+              diverse logistics challenges seamlessly, ensuring reliability and
+              professionalism at every turn. Trust us to deliver beyond
+              expectations, every step of the way.
             </div>
             <div className={styles.s3CardDiv}>
               <div id={styles.topCard} className={styles.s3card}>
                 <img src="/images/worker3.jpg" />
                 <p>
-                  <span> At Focus Logistics</span> we recognize the paramount
-                  significance of delivering efficient and secure services to
-                  our esteemed clients. Our commitment transcends mere
-                  acknowledgment; it's the cornerstone of our operations. With
-                  meticulous planning and execution ingrained in our ethos, we
-                  prioritize both timeliness and safety in every shipment. Rest
-                  assured, your satisfaction and peace of mind remain at the
-                  forefront of all we do.
+                  <span>At Alberta LTD</span>, we pride ourselves on our
+                  unwavering dedication to customer service excellence. As a
+                  trusted transportation and supply chain partner serving
+                  Western Canada, we understand the importance of reliability
+                  and professionalism in every aspect of our operations. With a
+                  seasoned team at the helm, we tackle diverse logistics
+                  challenges with ease, ensuring unparalleled reliability and
+                  professionalism every step of the way. Your satisfaction is
+                  our priority, driving us to deliver excellence in every
+                  service we provide.
                 </p>
               </div>
               <div className={styles.s3card}>
                 <img src="/images/worker2.jpg" />
                 <p>
-                  In a dynamic industry landscape, we thrive on innovation to
-                  maintain our leading position. Constantly exploring novel
-                  technologies, methodologies, and approaches, we bolster our
-                  efficiency, streamline operations, and deliver enhanced value
-                  to our clients. Our culture of innovation propels us to stay
-                  ahead in the transportation and logistics sector, ensuring we
-                  always exceed expectations and pioneer new standards of
-                  excellence.
+                  We embrace innovation as the cornerstone of our success in the
+                  ever-evolving transportation and logistics industry. By
+                  continuously exploring cutting-edge technologies,
+                  methodologies, and approaches, we enhance our efficiency and
+                  streamline operations to deliver added value to our clients.
+                  Our culture of innovation drives us to pioneer new standards
+                  of excellence, ensuring we exceed expectations and stay ahead
+                  in the dynamic landscape of transportation and logistics.
                 </p>
               </div>
               <div className={styles.s3card}>
-                <img src="/images/multiTruck.jpg" />
+                <img src="/images/worker1.jpg" />
                 <p>
-                  We wholeheartedly recognize the paramount importance of
-                  delivering efficient and secure services. Trust in our
-                  expertise as we meticulously ensure the safe and timely
-                  delivery of your shipments to their designated destinations.
-                  Our commitment to prioritizing both timeliness and safety
-                  remains unwavering throughout the entire transportation
-                  process, guaranteeing your peace of mind every step of the
-                  way.
+                  We deeply understand the critical significance of delivering
+                  efficient and secure services. Rely on our expertise as we
+                  meticulously ensure the safe and prompt delivery of your
+                  shipments to their designated destinations. Our unwavering
+                  commitment to prioritizing both timeliness and safety remains
+                  steadfast throughout the entire transportation process,
+                  guaranteeing your peace of mind every step of the way.
                 </p>
               </div>
               <div className={styles.s3card}>
                 <img src="/images/worker4.jpg" />
                 <p>
-                  We believe in fostering collaborative partnerships with our
-                  clients, founded on a shared commitment to mutual growth and
-                  success. Our approach is centered around actively engaging
-                  with you to gain a deep understanding of your individual needs
-                  and preferences. Through transparent communication and a
-                  dedication to customization, we strive to deliver tailored
-                  solutions that not only meet but exceed your expectations.
+                  We understand the vital importance of fostering collaborative
+                  partnerships with our valued clients. Rooted in a shared
+                  commitment to mutual growth and success, our approach revolves
+                  around actively engaging with you to deeply comprehend your
+                  distinct needs and preferences. Through transparent
+                  communication and an unwavering dedication to customization,
+                  we strive to deliver personalized solutions that not only meet
+                  but surpass your expectations.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className={styles.homeSection5}>
-            <h1>Ready to order?</h1>
-            <Text>
-              <Link href="/contact">
-                <span>Get a Quote now!</span>
-              </Link>
-            </Text>
-          </div>
           <div className={styles.homeSection4}>
-            <img src="/images/logo.png" />
+            <div className={styles.banner1LeftSide}>
+              <h1>
+                Welcome to Alberta Ltd. <br />
+                (1652357)
+              </h1>
+              <h2>
+                Alberta LTD. stands as a pillar in Alberta's transportation
+                sector, offering a comprehensive range of shipping solutions.
+                With our expansive network spanning across the province,
+                including strategically positioned terminals in Edmonton, Grand
+                Prairie, and Calgary, we maintain direct oversight over every
+                aspect of our operations.
+              </h2>
+            </div>
+            <div className={styles.banner1RightSide}>
+              <h1>The Premier Alberta Transportation Solution</h1>
+              <div className={styles.h2Div}>
+                <Link id={styles.butt} href="/contact">
+                  Quote
+                </Link>
+                <Link id={styles.butt} href="/services">
+                  Services
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
         <Footer />

@@ -13,14 +13,14 @@ function Footer() {
                 <h3>Edmonton</h3>
                 <div className={styles.infoSection}>
                   <h5>10303 65 Ave NW T6H 1V1</h5>
-                  <h5>780-952-4214</h5>
+                  <h5>780-245-1258</h5>
                 </div>
               </div>
               <div className={styles.contactSection2}>
                 <h3>Grand Prairie</h3>
                 <div className={styles.infoSection}>
                   <h5>Unit 206, 9804 100 Ave T8V 0T8</h5>
-                  <h5>587-991-4947</h5>
+                  <h5>780-965-6258</h5>
                 </div>
               </div>
             </div>
@@ -29,9 +29,8 @@ function Footer() {
             <h3>Industries</h3>
             <div className={styles.industriesDiv}>
               <h5>Delivery & Logistics</h5>
-              <h5>E-Commerce Deliveries</h5>
-              <h5>Blood Bank Deliveries</h5>
-              <h5>Dangerous Goods Deliveries</h5>
+              <h5>E-Commerce/Medicine Deliveries</h5>
+              <h5>FedEx Ground Deliveries</h5>
               <h5>Auto Parts Deliveries</h5>
             </div>
           </div>
@@ -51,7 +50,7 @@ function Footer() {
           </div>
         </div>
         <div className={styles.lowerSection}>
-          <h4> &#169; 2024 JMD Canada. All Rights Reserved.</h4>
+          <h4> &#169; 2024 1652357 Alberta LTD. All Rights Reserved.</h4>
           <h4>
             <Link href="/">Home</Link>
           </h4>
