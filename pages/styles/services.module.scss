@@ -20,14 +20,14 @@
     .banner {
       height: 60vh;
       width: 100%;
-      background-image: url("/images/semiBannerBlur1.jpg");
+      background-image: url("https://levinsonstefani.com/wp-content/uploads/2020/12/AdobeStock_238325439-scaled.jpeg");
       background-size: cover;
       display: flex;
       max-height: 800px;
       align-items: center;
       flex-direction: row-reverse;
       .sideSection {
-        background-color: rgb(63, 138, 153);
+        background-color: rgb(64, 32, 60);
         color: white;
         width: 45vw;
         max-width: 900px;
@@ -62,14 +62,15 @@
           padding: 5px;
           padding-left: 5px;
           padding-right: 10px;
-          background-color: rgb(107, 189, 148);
+
+          background-color: #ff6410;
+
           box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
             rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
             rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
         }
         h3:hover {
           cursor: pointer;
-          background-color: #0077b6;
         }
       }
       .imageDiv {
@@ -101,7 +102,8 @@
         height: 20vh;
         align-items: center;
         justify-content: space-evenly;
-        background-color: rgb(63, 138, 153);
+        background-color: rgb(36, 30, 60);
+
         border-radius: 6px;
 
         li {
@@ -253,7 +255,7 @@
           max-height: 900px;
           li {
             height: 10vh;
-            width: 30vw;
+            width: 20vw;
             padding: 5px;
             h3 {
               height: 100%;

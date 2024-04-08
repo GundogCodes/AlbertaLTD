@@ -41,3 +41,19 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .Heading {
+    .logoDiv {
+      width: 40%;
+      .logo {
+      }
+    }
+    aside {
+      width: 60%;
+      font-size: 15px;
+      .asideLinks:hover {
+      }
+    }
+  }
+}

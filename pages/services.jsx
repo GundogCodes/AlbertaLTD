@@ -7,25 +7,36 @@ function services() {
   const [logClicked, setLogClicked] = useState(true);
   const [eComClicked, setEComClicked] = useState(false);
   const [autoClicked, setAutoClicked] = useState(false);
+  const [fedClicked, setFedClickes] = useState(false);
   function clickedAService(e) {
     if (e.target.innerText === "Delivery & Logistics Services") {
-      e.target.style.backgroundColor = "rgb(107, 189, 148)";
+      e.target.style.backgroundColor = "rgb(64, 32, 60)";
       e.target.style.color = "white";
       setLogClicked(true);
       setEComClicked(false);
       setAutoClicked(false);
+      setFedClickes(false);
     } else if (e.target.innerText === "Medicinal Deliveries") {
-      e.target.style.backgroundColor = "rgb(107, 189, 148)";
+      e.target.style.backgroundColor = "rgb(64, 32, 60)";
       e.target.style.color = "white";
       setLogClicked(false);
       setEComClicked(true);
       setAutoClicked(false);
+      setFedClickes(false);
     } else if (e.target.innerText === "Auto Parts Deliveries") {
-      e.target.style.backgroundColor = "rgb(107, 189, 148)";
+      e.target.style.backgroundColor = "rgb(64, 32, 60)";
       e.target.style.color = "white";
       setLogClicked(false);
       setEComClicked(false);
       setAutoClicked(true);
+      setFedClickes(false);
+    } else if (e.target.innerText === "FedEx Ground Deliveries") {
+      e.target.style.backgroundColor = "rgb(64, 32, 60)";
+      e.target.style.color = "white";
+      setLogClicked(false);
+      setEComClicked(false);
+      setAutoClicked(false);
+      setFedClickes(true);
     }
   }
   return (
@@ -36,11 +47,12 @@ function services() {
           {/* <img src="https://www.transportationservices.ca/wp-content/uploads/2018/06/truck-transportation.jpg" /> */}
 
           <div className={styles.sideSection}>
-            <h1>Logistics Solutions </h1>
+            <h1>Tailored Logistics Solutions</h1>
             <h2>
-              We offer reliable shipping services that ensure smooth
-              door-to-door delivery, featuring competitive rates customized to
-              your specific shipping requirements.
+              Dependable shipping services designed to facilitate seamless
+              door-to-door deliveries. Our competitive rates are tailored to
+              suit your unique shipping needs, guaranteeing reliability every
+              step of the way.
             </h2>
             <Link href="/contact">
               <h3>Request A Quote</h3>
@@ -49,17 +61,21 @@ function services() {
         </div>
         <div className={styles.upperSection}>
           <div className={styles.textDiv}>
-            <h1>Streamline Your Transportation with Focus Logistics</h1>
+            <h1>Optimize Your Transportation with Alberta LTD</h1>
             <h2>
-              Whether your shipments are local or spanning across vast
-              distances, we specialize in crafting customized solutions to align
-              with your requirements, budget, and deadlines.
+              From local deliveries to extensive hauls, we excel in creating
+              personalized solutions tailored to your needs, budget, and
+              timelines, ensuring efficient and cost-effective transportation
+              services.
             </h2>
           </div>
           <h2></h2>
           <ul>
             <li className="log" onClick={clickedAService}>
               <h3>Delivery & Logistics Services</h3>
+            </li>
+            <li className="fed" onClick={clickedAService}>
+              <h3>FedEx Ground Deliveries</h3>
             </li>
             <li className="ecom" onClick={clickedAService}>
               <h3>Medicinal Deliveries</h3>
@@ -88,7 +104,38 @@ function services() {
                     solutions that meet and exceed your expectations.
                   </p>
                   <div className={styles.graphicAside}>
-                    <img src="/images/worker5.jpg" />
+                    <img src="/images/worker6.jpg" />
+                    <h4>Customized solutions tailored to your needs</h4>
+                    <h4>Efficient and secure transportation services</h4>
+                    <h4>Dedicated team committed to excellence</h4>
+                    <h4>Seamless door-to-door delivery options</h4>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <></>
+            )}
+            {fedClicked ? (
+              <div className={styles.serviceDisplayLog}>
+                <h1>FedEx Ground Deliveries</h1>
+                <div className={styles.servicesInnerDiv}>
+                  <p>
+                    At Alberta LTD, we specialize in providing a wide range of
+                    delivery and logistics solutions, including reliable FedEx
+                    Ground deliveries, meticulously designed to cater to your
+                    unique requirements and challenges. Our dedicated team works
+                    closely with you to understand your specific needs, allowing
+                    us to tailor our services accordingly. From initial planning
+                    to final delivery, we prioritize the seamless and secure
+                    transportation of your goods, ensuring that they reach their
+                    destination on time and in perfect condition. Whether you
+                    require specialized handling, expedited shipping, or regular
+                    freight services through FedEx Ground, you can trust us to
+                    provide customized solutions that meet and exceed your
+                    expectations.
+                  </p>
+                  <div className={styles.graphicAside}>
+                    <img src="/images/worker8.jpg" />
                     <h4>Customized solutions tailored to your needs</h4>
                     <h4>Efficient and secure transportation services</h4>
                     <h4>Dedicated team committed to excellence</h4>
@@ -104,7 +151,7 @@ function services() {
                 <h1>Medicinal Deliveries</h1>
                 <div className={styles.servicesInnerDiv}>
                   <div className={styles.graphicAside}>
-                    <img src="/images/worker6.jpg" />
+                    <img src="/images/worker5.jpg" />
                     <h4>Specialized services for urgent deliveries</h4>
                     <h4>Swift and secure transportation of medical supplies</h4>
                     <h4>Reliable delivery services for critical shipments</h4>

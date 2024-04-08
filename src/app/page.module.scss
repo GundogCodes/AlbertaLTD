@@ -406,12 +406,37 @@
         align-items: center;
         justify-content: center;
         background-size: cover;
-        img {
-          width: 200px;
-          height: 200px;
+        .banner1LeftSide {
+          h1,
+          h2 {
+          }
+          h1 {
+            font-size: 10px;
+
+            width: 100%;
+            height: 20%;
+          }
+          h2 {
+            font-size: 10px;
+
+            width: 80%;
+            height: 75%;
+            padding: 10px;
+          }
         }
-      }
-      .homeSection5 {
+        .banner1RightSide {
+          width: 40%;
+          justify-content: flex-end;
+          h1 {
+            font-size: 12px;
+          }
+          .h2Div {
+            font-size: 10px;
+            #butt {
+              font-size: 10px;
+            }
+          }
+        }
       }
     }
   }
