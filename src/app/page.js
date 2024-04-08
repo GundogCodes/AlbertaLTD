@@ -24,19 +24,16 @@ export default function Home() {
         <Heading />
         <div className={styles.mainBody}>
           <div className={styles.homeSection1}>
-            <div className={styles.section1Div1}>
-              <h2>ECOMMERCE DELIVERY SERVICE</h2>
-              <h1>Same-Day, Next-Day guaranteed!</h1>
-              <p>
-                eCommerce delivery experts at your service! We make any business
-                competitive with next-day shipping on a variety of products.
-                From your warehouse or store to your customer’s front door, we
-                ensure safe and swift delivery
-              </p>
+            <div className={styles.leftSection}>
+              <div className={styles.section1Div1}>
+                <h1>Tailored Shipping Solutions.</h1>
+              </div>
+              <div className={styles.section1Div2}>
+                <h1>Efficient, Reliable, and Personalized for You.</h1>
+              </div>
             </div>
-            <div className={styles.section1Div2}>
-              <h1>Efficient and Reliable Shipment Solutions</h1>
-              <h1>Tailored to Your Needs</h1>
+            <div className={styles.section1Div3}>
+              <h1>Welcome to Focus Logistics</h1>
             </div>
           </div>
           <div className={styles.homeSection2}>
@@ -44,21 +41,24 @@ export default function Home() {
               <h1>Why Choose Us?</h1>
               <ul>
                 <li>
-                  <span> At JMD Canada Transportation</span> is a leading
-                  shipping and logistics company serving Alberta and beyond.
+                  Welcome to<span> Focus Logistics & Transportation Ltd.</span>,
+                  your premier shipping and logistics partner in Alberta and
+                  beyond.
                 </li>
                 <li>
-                  We have two strategically located offices in Edmonton and
-                  Grand Prairie.
+                  With our establishment in November 2021, we've swiftly become
+                  a trusted name in the industry, proudly serving clients across
+                  all regions of Alberta.
                 </li>
                 <li>
-                  Our location sallow us to deliver goods to any destination
-                  within the province.
+                  we offer a diverse fleet of vehicles, including cars,
+                  minivans, one-ton, and five-ton trucks, ensuring we meet your
+                  transportation needs efficiently and reliably.
                 </li>
                 <li id={styles.longLi}>
-                  We maintain direct control over all operations through our
-                  extensive network of terminals and dedicated team of
-                  professionals.
+                  Strategically positioned, we boast two operational offices in
+                  Edmonton and Grand Prairie, along with an additional presence
+                  in Calgary.
                 </li>
               </ul>
             </div>
@@ -83,17 +83,17 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Reliability
+                      Proactive Customer Care
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
-                <AccordionPanel pb={4}>
-                  At JMD Canada Transportation, reliability is at the core of
-                  everything we do. We understand the importance of delivering
-                  shipments on time and in perfect condition. Our customers
-                  trust us to fulfill our commitments consistently, ensuring
-                  peace of mind and smooth operations for their businesses.
+                <AccordionPanel className={styles.accordionPara} pb={4}>
+                  We believe in proactive customer care at Focus Logistics. Our
+                  dedicated team goes above and beyond to anticipate and address
+                  your needs before they arise. Whether it's providing real-time
+                  updates on your shipment or offering personalized assistance,
+                  we're here to ensure your satisfaction every step of the way.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -105,18 +105,18 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Customer-Centricity
+                      Precision Delivery Solutions
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
-                <AccordionPanel pb={4}>
-                  We prioritize our customers' needs above all else. Our
-                  dedicated team goes above and beyond to understand and cater
-                  to the unique requirements of each client. We are committed to
-                  providing exceptional service and building long-lasting
-                  relationships based on trust, transparency, and
-                  responsiveness.
+                <AccordionPanel className={styles.accordionPara} pb={4}>
+                  At Focus Logistics, we prioritize precision in every aspect of
+                  our delivery solutions. We meticulously plan and execute each
+                  shipment, ensuring timely and accurate deliveries to your
+                  destination. Our commitment to precision extends from our
+                  operational processes to our customer service, guaranteeing a
+                  seamless experience for every client.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -128,22 +128,18 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Quality
+                      Collaborative Partnership Approach:
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
-                <AccordionPanel pb={4}>
-                  At JMD Canada Transportation, we prioritize delivering
-                  excellence in every aspect of our service. We are dedicated to
-                  maintaining the highest standards of quality in our
-                  operations, from the condition of our vehicles to the
-                  professionalism of our staff. By consistently exceeding
-                  expectations and adhering to rigorous quality control
-                  measures, we ensure that every shipment is handled with care
-                  and precision. Our unwavering commitment to quality sets us
-                  apart as a trusted and reliable partner for all your
-                  transportation and logistics needs.
+                <AccordionPanel className={styles.accordionPara} pb={4}>
+                  We view our client relationships as partnerships built on
+                  collaboration and mutual success. We work closely with you to
+                  understand your unique requirements and tailor our services to
+                  meet your specific needs. By fostering open communication and
+                  transparency, we aim to forge long-lasting partnerships that
+                  drive value for your business.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -155,65 +151,84 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Integrity
+                      Safety-First Culture
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
-                <AccordionPanel pb={4}>
-                  Integrity is the foundation of our business. We conduct
-                  ourselves with honesty, fairness, and ethical behavior in all
-                  our interactions, both internally and externally. Our
-                  commitment to integrity means that our customers can rely on
-                  us to uphold the highest standards of professionalism,
-                  transparency, and accountability in everything we do.
+                <AccordionPanel className={styles.accordionPara} pb={4}>
+                  Safety is our top priority. We maintain a rigorous
+                  safety-first culture that permeates every aspect of our
+                  operations. From comprehensive driver training programs to
+                  strict adherence to industry regulations, we ensure the
+                  highest standards of safety for our team members, your cargo,
+                  and the communities we serve. By prioritizing safety at all
+                  times, we provide peace of mind and reliability to our
+                  clients, fostering trust and confidence in our services.
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
           </div>
           <div className={styles.homeSection3}>
             <div className={styles.text}>
-              <span>Our Commitment To Customer Service is Unmatched</span>
-              We take pride in our reputation as one of the most dependable
-              transportation and supply chain service providers in Western
-              Canada. Our experienced team is equipped to handle even the most
-              complex logistics challenges, regardless of the size or scope of
-              the shipment or supply chain issue.
+              <span>Our Dedication to Customer Service Sets Us Apart.</span>
+              As a trusted transportation and supply chain partner in Western
+              Canada, we are renowned for our unwavering commitment to
+              excellence. With a seasoned team at the helm, we tackle diverse
+              logistics challenges with ease, no matter the scale or complexity.
+              Count on us for unparalleled reliability and professionalism every
+              step of the way
             </div>
             <div className={styles.s3CardDiv}>
-              <div id={styles.s3card}>
-                <img src="https://media.istockphoto.com/id/1189954840/photo/truck-driver-holding-tablet-and-checking-route-for-new-destination-in-background-parked-truck.jpg?s=612x612&w=0&k=20&c=875cGSOE9P3GHiltFtqxIwELrZARfiNcqC7cD-xW348=" />
+              <div id={styles.topCard} className={styles.s3card}>
+                <img src="/images/worker3.jpg" />
                 <p>
-                  <span> At JMD Canada Transportation</span> We deeply
-                  understand and appreciate the critical importance of ensuring
-                  efficient and secure delivery services for our valued clients.
-                  Our commitment goes beyond mere acknowledgment; it's a
-                  foundational principle that drives every aspect of our
-                  operations. We stand firm in our dedication to meticulously
-                  plan and execute each shipment, prioritizing both timeliness
-                  and safety.
+                  <span> At Focus Logistics</span> we recognize the paramount
+                  significance of delivering efficient and secure services to
+                  our esteemed clients. Our commitment transcends mere
+                  acknowledgment; it's the cornerstone of our operations. With
+                  meticulous planning and execution ingrained in our ethos, we
+                  prioritize both timeliness and safety in every shipment. Rest
+                  assured, your satisfaction and peace of mind remain at the
+                  forefront of all we do.
                 </p>
               </div>
-              <div id={styles.s3card}>
-                <img src="https://media.istockphoto.com/id/1285071058/photo/smiling-chief-standing-in-auto-park-and-holding-tablet-in-background-are-trucks-firm-for.jpg?s=612x612&w=0&k=20&c=l2-AIhwSromV_DHpGJmPqL1U2v9cBQLhjIvPTnV23vY=" />
+              <div className={styles.s3card}>
+                <img src="/images/worker2.jpg" />
                 <p>
-                  In an ever-evolving industry, we embrace innovation to stay
-                  ahead of the curve. We continuously seek out new technologies,
-                  processes, and strategies to enhance our efficiency, optimize
-                  our operations, and provide added value to our customers. By
-                  fostering a culture of innovation, we ensure that we remain at
-                  the forefront of the transportation and logistics sector.
+                  In a dynamic industry landscape, we thrive on innovation to
+                  maintain our leading position. Constantly exploring novel
+                  technologies, methodologies, and approaches, we bolster our
+                  efficiency, streamline operations, and deliver enhanced value
+                  to our clients. Our culture of innovation propels us to stay
+                  ahead in the transportation and logistics sector, ensuring we
+                  always exceed expectations and pioneer new standards of
+                  excellence.
                 </p>
               </div>
-              <div id={styles.s3card}>
-                <img src="https://media.istockphoto.com/id/1396633199/photo/happy-truck-driver-looking-through-side-window-while-driving-his-truck.jpg?s=612x612&w=0&k=20&c=VA7ggpLITCRxjuhKrYlwkFc4-M7e2Q7aie_mYQqVkwg=" />
+              <div className={styles.s3card}>
+                <img src="/images/multiTruck.jpg" />
                 <p>
-                  We deeply acknowledge the critical importance of executing
-                  efficient and secure delivery services. Rely on our expertise
-                  to meticulously ensure the safe and prompt delivery of your
-                  shipments to their designated destinations, prioritizing both
-                  timeliness and safety throughout the entire transportation
-                  process.
+                  We wholeheartedly recognize the paramount importance of
+                  delivering efficient and secure services. Trust in our
+                  expertise as we meticulously ensure the safe and timely
+                  delivery of your shipments to their designated destinations.
+                  Our commitment to prioritizing both timeliness and safety
+                  remains unwavering throughout the entire transportation
+                  process, guaranteeing your peace of mind every step of the
+                  way.
+                </p>
+              </div>
+              <div className={styles.s3card}>
+                <img src="/images/worker4.jpg" />
+                <p>
+                  We believe in fostering collaborative partnerships with our
+                  clients, founded on a shared commitment to mutual growth and
+                  success. Our approach is centered around actively engaging
+                  with you to gain a deep understanding of your individual needs
+                  and preferences. Through transparent communication and a
+                  dedication to customization, we strive to deliver tailored
+                  solutions that not only meet but exceed your expectations.
                 </p>
               </div>
             </div>
@@ -228,7 +243,7 @@ export default function Home() {
             </Text>
           </div>
           <div className={styles.homeSection4}>
-            <img src="/images/JMDLogo2.png"></img>
+            <img src="/images/logo.png" />
           </div>
         </div>
         <Footer />

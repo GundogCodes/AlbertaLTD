@@ -6,36 +6,25 @@ import Link from "next/link";
 function services() {
   const [logClicked, setLogClicked] = useState(true);
   const [eComClicked, setEComClicked] = useState(false);
-  const [DGClicked, setDGClicked] = useState(false);
   const [autoClicked, setAutoClicked] = useState(false);
   function clickedAService(e) {
     if (e.target.innerText === "Delivery & Logistics Services") {
-      e.target.style.backgroundColor = "#ff6410";
+      e.target.style.backgroundColor = "rgb(107, 189, 148)";
       e.target.style.color = "white";
       setLogClicked(true);
       setEComClicked(false);
-      setDGClicked(false);
       setAutoClicked(false);
-    } else if (e.target.innerText === "E-Commerce & Blood Bank Deliveries") {
-      e.target.style.backgroundColor = "#ff6410";
+    } else if (e.target.innerText === "Medicinal Deliveries") {
+      e.target.style.backgroundColor = "rgb(107, 189, 148)";
       e.target.style.color = "white";
       setLogClicked(false);
       setEComClicked(true);
-      setDGClicked(false);
-      setAutoClicked(false);
-    } else if (e.target.innerText === "Dangerous Goods Deliveries") {
-      e.target.style.backgroundColor = "#ff6410";
-      e.target.style.color = "white";
-      setLogClicked(false);
-      setEComClicked(false);
-      setDGClicked(true);
       setAutoClicked(false);
     } else if (e.target.innerText === "Auto Parts Deliveries") {
-      e.target.style.backgroundColor = "#ff6410";
+      e.target.style.backgroundColor = "rgb(107, 189, 148)";
       e.target.style.color = "white";
       setLogClicked(false);
       setEComClicked(false);
-      setDGClicked(false);
       setAutoClicked(true);
     }
   }
@@ -47,13 +36,11 @@ function services() {
           {/* <img src="https://www.transportationservices.ca/wp-content/uploads/2018/06/truck-transportation.jpg" /> */}
 
           <div className={styles.sideSection}>
-            <h1>
-              Transportation <br />
-              Services{" "}
-            </h1>
+            <h1>Logistics Solutions </h1>
             <h2>
-              Dependable shipping service providing seamless door-to-door
-              delivery, with competitive rates tailored to your shipping needs.
+              We offer reliable shipping services that ensure smooth
+              door-to-door delivery, featuring competitive rates customized to
+              your specific shipping requirements.
             </h2>
             <Link href="/contact">
               <h3>Request A Quote</h3>
@@ -62,26 +49,23 @@ function services() {
         </div>
         <div className={styles.upperSection}>
           <div className={styles.textDiv}>
-            <h1>Consolidate Your Transport with JMD</h1>
+            <h1>Streamline Your Transportation with Focus Logistics</h1>
             <h2>
-              Whether you're sending packages across town or to distant
-              destinations, we're here to tailor solutions that match your
-              needs, budget, and timeframe.
+              Whether your shipments are local or spanning across vast
+              distances, we specialize in crafting customized solutions to align
+              with your requirements, budget, and deadlines.
             </h2>
           </div>
           <h2></h2>
           <ul>
             <li className="log" onClick={clickedAService}>
-              Delivery & Logistics Services
+              <h3>Delivery & Logistics Services</h3>
             </li>
             <li className="ecom" onClick={clickedAService}>
-              E-Commerce & Blood Bank Deliveries
-            </li>
-            <li className="dang" onClick={clickedAService}>
-              Dangerous Goods Deliveries
+              <h3>Medicinal Deliveries</h3>
             </li>
             <li className="auto" onClick={clickedAService}>
-              Auto Parts Deliveries
+              <h3>Auto Parts Deliveries</h3>
             </li>
           </ul>
 
@@ -104,7 +88,7 @@ function services() {
                     solutions that meet and exceed your expectations.
                   </p>
                   <div className={styles.graphicAside}>
-                    <img src="/images/d&l.jpg" />
+                    <img src="/images/worker5.jpg" />
                     <h4>Customized solutions tailored to your needs</h4>
                     <h4>Efficient and secure transportation services</h4>
                     <h4>Dedicated team committed to excellence</h4>
@@ -117,10 +101,10 @@ function services() {
             )}
             {eComClicked ? (
               <div className={styles.serviceDisplayCom}>
-                <h1>E-Commerce & Blood Bank Deliveries</h1>
+                <h1>Medicinal Deliveries</h1>
                 <div className={styles.servicesInnerDiv}>
                   <div className={styles.graphicAside}>
-                    <img src="/images/ecom.jpg" />
+                    <img src="/images/worker6.jpg" />
                     <h4>Specialized services for urgent deliveries</h4>
                     <h4>Swift and secure transportation of medical supplies</h4>
                     <h4>Reliable delivery services for critical shipments</h4>
@@ -147,45 +131,12 @@ function services() {
             ) : (
               <></>
             )}
-            {DGClicked ? (
-              <div className={styles.serviceDisplayDG}>
-                <h1>Dangerous Goods Deliveries</h1>
-                <div className={styles.servicesInnerDiv}>
-                  <p>
-                    With our extensive expertise in handling hazardous
-                    materials, we are committed to upholding the highest safety
-                    standards and regulatory compliance. Our specialized team is
-                    well-versed in the intricacies of transporting dangerous
-                    goods, ensuring strict adherence to safety protocols and
-                    regulations at every step of the process. From proper
-                    packaging and labeling to meticulous handling and
-                    transportation, we prioritize the safety and security of
-                    both our team members and the communities we serve. With our
-                    comprehensive understanding of safety regulations and
-                    industry best practices, you can trust us to provide secure
-                    and reliable transportation solutions for hazardous
-                    materials, delivering them safely to their designated
-                    destinations while mitigating risks and ensuring compliance
-                    with all regulatory requirements.
-                  </p>
-                  <div className={styles.graphicAside}>
-                    <img src="/images/dangerous.jpg" />
-                    <h4>Strict adherence to safety protocols</h4>
-                    <h4>Comprehensive understanding of regulations</h4>
-                    <h4>Secure and reliable transportation solutions</h4>
-                    <h4>Mitigation of risks and compliance assurance</h4>
-                  </div>
-                </div>
-              </div>
-            ) : (
-              <></>
-            )}
             {autoClicked ? (
               <div className={styles.serviceDisplayAuto}>
                 <h1>Auto Parts Deliveries</h1>
                 <div className={styles.servicesInnerDiv}>
                   <div className={styles.graphicAside}>
-                    <img src="/images/auto.jpg" />
+                    <img src="/images/worker7.jpg" />
                     <h4>Efficient transportation of auto parts</h4>
                     <h4>Timely and reliable delivery services</h4>
                     <h4>Streamlined transportation process</h4>

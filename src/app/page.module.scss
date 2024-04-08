@@ -17,53 +17,83 @@
     max-width: 1940px;
     overflow-y: hidden;
     .homeSection1 {
-      background-image: url("/images/longHaulSemi.jpg");
+      background-image: url("/images/semiBannerBlur2.jpg");
       background-size: cover;
       background-position-y: -450px;
       width: 100%;
-      height: 50vh;
+      height: 35vh;
       max-height: 800px;
       display: flex;
       align-items: center;
-      justify-content: space-around;
-      .section1Div1 {
-        width: 40%;
-        height: 35vh;
-        max-height: 600px;
-        border-radius: 60px;
-        margin-left: 1vw;
-        background-color: #ff6410;
+      flex-direction: row-reverse;
+      overflow-x: hidden;
+      .leftSection {
+        width: 60%;
+        background-color: none;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        font-weight: 500;
-        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-
-        h2,
-        h1,
-        p {
+        .section1Div1 {
+          height: 50%;
+          width: 100%;
+          background-color: rgb(107, 189, 148);
+          transform: skewX(-20deg) translateX(10vw);
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
           color: white;
-          width: 80%;
+
+          h1 {
+            transform: skewX(20deg);
+            font-size: 3vh;
+            width: 90%;
+            height: 50%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            font-weight: bold;
+          }
         }
-        h1 {
-          font-size: larger;
-          font-weight: bolder;
+        .section1Div2 {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          transform: skewX(20deg) translateX(10vw);
+          background-color: rgb(107, 189, 148);
+          color: white;
+
+          h1 {
+            margin-top: 10px;
+            transform: skewX(-20deg);
+            font-size: 2vh;
+            width: 80%;
+            max-width: 500px;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            font-weight: bold;
+          }
+          width: 100%;
+          height: 50%;
+          background-color: r;
         }
       }
-      .section1Div2 {
+      .section1Div3 {
         width: 40%;
-        height: 100%;
-        max-height: 700px;
-        color: white;
+        height: 90%;
         display: flex;
-        align-items: center;
-        flex-direction: column;
         justify-content: center;
-        font-size: 30px;
+        align-items: center;
+        color: white;
         font-weight: bolder;
+
+        h1 {
+          font-size: 40px;
+        }
       }
     }
 
@@ -73,8 +103,15 @@
       max-height: 800px;
       display: flex;
       align-items: center;
+      flex-direction: row-reverse;
       justify-content: space-evenly;
-
+      background-color: rgb(240, 240, 240);
+      .accordion {
+        background-color: rgb(63, 138, 153);
+        color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+          rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
       .text {
         width: 40%;
         height: 80%;
@@ -82,6 +119,8 @@
         border-radius: 4px;
         padding: 2px;
         box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+        background-color: rgb(107, 189, 148);
+        color: white;
         h1 {
           font-size: 40px;
           display: flex;
@@ -94,6 +133,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          color: black;
           li {
             span {
               font-weight: bold;
@@ -108,6 +148,7 @@
           }
           #longLi {
             height: 15vh;
+            max-height: 100px;
           }
         }
       }
@@ -123,13 +164,12 @@
     .homeSection3 {
       width: 100%;
       height: 110vh;
-      background-color: #0077b6;
+      background-color: rgb(107, 189, 148);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
       max-height: 800px;
-
       .text {
         display: flex;
         justify-content: center;
@@ -151,9 +191,9 @@
         height: 70%;
         justify-content: space-evenly;
         align-items: center;
-        background-color: #ff6410;
+        background-color: rgb(63, 138, 153);
         border-radius: 7px;
-        #s3card {
+        .s3card {
           max-height: 550px;
           width: 40%;
           max-width: 300px;
@@ -179,14 +219,49 @@
         }
       }
     }
+    .homeSection4 {
+      width: 100%;
+      height: 30vh;
+      background-image: url("/images/semiBlur1.jpg");
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 300px;
+      }
+    }
+    .homeSection5 {
+      height: 25vh;
+      max-height: 600px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: 25px;
+      background-color: rgb(240, 240, 240);
+      span {
+        color: white;
+        background-color: rgb(63, 138, 153);
+        padding: 10px;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      }
+    }
   }
 }
 
 @media (max-width: 900px) {
   .main {
-    max-height: 5000px;
+    max-height: 6000px;
+    background-color: rgb(63, 138, 153);
     .mainBody {
       .homeSection1 {
+        margin-top: 1vh;
+        height: 30vh;
         .section1Div1 {
           h2,
           h1,
@@ -203,18 +278,27 @@
           }
         }
         .section1Div2 {
-          font-size: 20px;
+        }
+        .section1Div3 {
+          h1 {
+            font-size: 20px;
+            height: 100%;
+            display: flex;
+            padding-left: 10px;
+            align-items: center;
+          }
         }
       }
 
       .homeSection2 {
-        height: 130vh;
+        height: 150vh;
         max-height: 1200px;
         flex-direction: column;
         justify-content: space-evenly;
         .accordion {
           width: 100vw;
-          height: 60vh;
+          height: 80vh;
+          max-height: 1000px;
         }
         .text {
           width: 100vw;
@@ -228,14 +312,20 @@
             justify-content: flex-start;
             overflow-y: scroll;
             li {
-              height: 10vh;
+              height: 20vh;
 
               span {
               }
             }
+            #longLi {
+              height: 20vh;
+              max-height: 400px;
+            }
           }
         }
-        .accordionValues {
+
+        .accordionPara {
+          overflow-y: scroll;
         }
       }
       .homeSection3 {
@@ -245,6 +335,7 @@
         .text {
           width: 95vw;
           height: 40vh;
+          font-size: 15px;
           span {
             height: 10vh;
             width: 95vw;
@@ -255,9 +346,11 @@
           flex-direction: column;
           overflow-y: scroll;
           justify-content: flex-start;
-          #s3card {
+          align-items: center;
+
+          .s3card {
             width: 95vw;
-            margin-top: 5vh;
+            margin-top: 15vh;
             img {
             }
             p {
@@ -265,29 +358,24 @@
               }
             }
           }
+          #topCard {
+            margin-top: 5vh;
+          }
         }
       }
       .homeSection4 {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
         img {
-          background-image: url("/images/semiBanner.jpg");
+          width: 200px;
+          height: 200px;
         }
       }
       .homeSection5 {
-        height: 25vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        font-size: 25px;
-        span {
-          background-color: #ff6410;
-          padding: 10px;
-          border-radius: 7px;
-          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-            rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-            rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-        }
       }
     }
   }
