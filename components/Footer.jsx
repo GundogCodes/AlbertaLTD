@@ -7,7 +7,7 @@ function Footer() {
       <div className={styles.theFooter}>
         <div className={styles.upperSection}>
           <div className={styles.footerSection1}>
-            <h3>Contact Us</h3>
+            <h3 id={styles.headings}>Contact Us</h3>
             <div className={styles.contactSection}>
               <div className={styles.contactSection1}>
                 <h3>Edmonton</h3>
@@ -26,7 +26,7 @@ function Footer() {
             </div>
           </div>
           <div className={styles.footerSection2}>
-            <h3>Industries</h3>
+            <h3 id={styles.headings}>Industries</h3>
             <div className={styles.industriesDiv}>
               <h5>Delivery & Logistics</h5>
               <h5>E-Commerce/Medicine Deliveries</h5>
@@ -35,7 +35,7 @@ function Footer() {
             </div>
           </div>
           <div className={styles.footerSection3}>
-            <h3>Follow Us</h3>
+            <h3 id={styles.headings}>Follow Us</h3>
             <div className={styles.linksDiv}>
               <a href="https://linkedin.com">
                 <img src="https://www.tforcelogistics.com/wp-content/uploads/2020/06/linkedin-1.png" />

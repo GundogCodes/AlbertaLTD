@@ -26,11 +26,11 @@ export default function Home() {
           <div className={styles.homeSection1}>
             <div className={styles.leftSection}>
               <div className={styles.section1Div1}>
-                <h1>Driving Success</h1>
+                <h1 id={styles.slogan1}>Driving Success</h1>
               </div>
               <div className={styles.section1Div2}>
                 {" "}
-                <h1>Delivering Excellence</h1>
+                <h1 id={styles.slogan2}>Delivering Excellence</h1>
               </div>
             </div>
             <div className={styles.section1Div3}>LOGO</div>

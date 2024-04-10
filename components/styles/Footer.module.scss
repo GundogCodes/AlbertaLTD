@@ -24,6 +24,10 @@
         padding-left: 10%;
         text-decoration: underline;
       }
+      #headings {
+        border-bottom: solid 1px white;
+        border-right: solid 1px white;
+      }
       .footerSection1 {
         height: 100%;
         width: 45%;
@@ -104,6 +108,63 @@
       border-top: solid 1px white;
       h4:hover {
         cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .Footer {
+    .theFooter {
+      height: 100vh;
+      max-height: 1000px;
+      .upperSection {
+        flex-direction: column;
+        h3 {
+        }
+        #headings {
+          border-top: solid 1px white;
+        }
+        .footerSection1 {
+          width: 100%;
+          .contactSection {
+            .contactSection1 {
+              .infoSection {
+                font-size: 10px;
+              }
+            }
+            .contactSection2 {
+              .infoSection {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+        .footerSection2 {
+          width: 100%;
+          border-left: solid 1px rgb(36, 30, 60);
+          h3 {
+            border-left: solid 1px rgb(36, 30, 60);
+          }
+          .industriesDiv {
+            border-left: solid 1px rgb(36, 30, 60);
+          }
+        }
+        .footerSection3 {
+          border-left: solid 1px rgb(36, 30, 60);
+          width: 100%;
+          max-height: 100px;
+          h3 {
+          }
+          .linksDiv {
+            border-left: solid 1px rgb(36, 30, 60);
+          }
+        }
+      }
+      .lowerSection {
+        font-size: 10px;
+        h4:hover {
+        }
       }
     }
   }
