@@ -115,9 +115,10 @@
 
 @media (max-width: 900px) {
   .Footer {
+    height: 100vh;
+    max-height: 1000px;
     .theFooter {
       height: 100vh;
-      max-height: 1000px;
       .upperSection {
         flex-direction: column;
         h3 {

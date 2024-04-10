@@ -293,8 +293,14 @@
 @media (max-width: 900px) {
   .main {
     background-color: rgb(64, 32, 60);
+    max-height: 10000;
+    height: 500vh;
+    justify-content: flex-end;
     .mainBody {
       background-color: rgb(64, 32, 60);
+      max-height: 10000;
+      height: 500vh;
+      justify-content: flex-end;
       .homeSection1 {
         background-color: rgb(63, 138, 153);
         height: 30vh;
