@@ -192,18 +192,19 @@
 }
 @media (max-width: 900px) {
   .Services {
-    max-height: 5000px;
+    max-height: 4000px;
+    height: 400vh;
     justify-content: space-evenly;
     .servicesBody {
-      max-height: 5000px;
+      max-height: 4000px;
+      height: 400vh;
       .banner {
-        height: 100vh;
+        height: 80vh;
         max-height: 1000px;
         .sideSection {
           max-height: 1000px;
           width: 70vw;
           height: 25vh;
-          padding: 10px;
           h1,
           h2,
           h3 {
