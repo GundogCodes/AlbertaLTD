@@ -16,7 +16,7 @@ function Heading() {
     <div className={styles.Heading}>
       <div className={styles.logoDiv}>
         <Link className={styles.logo} href={"/"}>
-          Logo Here
+          <em>Alberta Ltd.</em>
           <img src="" />
         </Link>
       </div>

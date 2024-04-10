@@ -33,7 +33,9 @@ export default function Home() {
                 <h1 id={styles.slogan2}>Delivering Excellence</h1>
               </div>
             </div>
-            <div className={styles.section1Div3}>LOGO</div>
+            <div className={styles.section1Div3}>
+              <em>Alberta Ltd.</em>
+            </div>
           </div>
           <div className={styles.homeSection2}>
             <div className={styles.text}>
