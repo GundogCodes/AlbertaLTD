@@ -42,10 +42,10 @@ export default function Home() {
               <h1>Why Choose Us?</h1>
               <ul>
                 <li>
-                  Welcome to<span> Alberta Ltd.</span>, your trusted partner in
-                  transportation and logistics services. Established in January
-                  2012, we have swiftly risen to prominence, catering to clients
-                  throughout the expansive regions of Alberta
+                  Welcome to<span> 165 Alberta Ltd.</span>, your trusted partner
+                  in transportation and logistics services. Established in
+                  January 2012, we have swiftly risen to prominence, catering to
+                  clients throughout the expansive regions of Alberta
                 </li>
                 <li>
                   Our extensive fleet comprises a variety of vehicles, ranging
